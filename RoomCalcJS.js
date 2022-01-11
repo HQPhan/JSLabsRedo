@@ -7,9 +7,13 @@ function RoomCalcJS(){
   let area = width * length;
   let volume = width * length * height;
   let perimeter = (2*width) + (2*length);
+  let carpet = area/5;
+  let paint = (2*area + 2*(width*height) + 2*(length*height))/25;
   console.log("Area: " + area);
   console.log("Volume: " + volume);
   console.log("Perimeter: " + perimeter);
+  console.log("Carpet needed: " + carpet);
+  console.log("Paint needed: " + paint);
 
   KeepGoing = Again();
   }
